@@ -1,13 +1,9 @@
-from functools import partial
-from telnetlib import GA
-from turtle import title
+
 from django.http import JsonResponse
-from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.http import Http404
 from journeyapp.models import Game, WishList
-from . import serializers
 from rest_framework import status
 from .serializers import *
 
