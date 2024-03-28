@@ -1,1 +1,0 @@
-web: gunicorn Journey.wsgi --log-file -
