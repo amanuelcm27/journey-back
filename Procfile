@@ -1,1 +1,1 @@
-web: gunicorn Journey.wsgi
+web: gunicorn Journey.wsgi --log-file -
