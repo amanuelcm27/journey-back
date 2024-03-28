@@ -2,7 +2,6 @@ from django.urls import path ,re_path
 from django.views.generic import TemplateView
 from . import views
 urlpatterns = [
-    path("api/hello_world",views.JsonResponse),
     path("add_game/",views.add_game),
     path("all_games/",views.all_games),
     path("game_detail/<int:game_id>/",views.game_detail),
